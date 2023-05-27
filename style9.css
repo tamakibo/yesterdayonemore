@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(4, 27, 32);
+    font-family: '2p';
+}
+ @font-face {
+    font-family: '2p';
+    src: url('PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+#canvas1{/* 
+    border: 5px solid rgb(0, 0, 0); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(4, 27, 32);
+}
+ .intro{
+    color: yellow;
+    font-family: '2p';
+    padding-left: 5rem;
+    padding-top: 5rem;
+    line-height: 1.5;
+
+
+} 
+#player, #layer1 , #layer2 , #layer3 , #layer4 , #layer5 , #enemyZombi ,#ufo , #leg ,#fire ,#collisionAnimation , #lives{
+
+   display: none;
+}
+.instruction{
+    display: flex;
+    flex-direction: row;
+}
+.how-to-play{
+    padding-top: 30rem;
+    padding-left: 5rem;
+    color: rgb(219, 219, 21)
+}
+.how-to-play p{
+    padding-bottom: 1rem;
+}
+.how-to-play img{
+    width: 10rem;
+}
+.how-to-play2{
+     padding-top: 28rem;
+    padding-left: 5rem; 
+    color: rgb(219, 219, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.how-to-play2 img{
+    width: 4rem;
+    padding-top: 1rem; 
+}
